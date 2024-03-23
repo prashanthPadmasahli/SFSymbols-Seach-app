@@ -15,6 +15,7 @@
 		0409CE092BAEE547001F5B2E /* IconGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CE082BAEE547001F5B2E /* IconGridView.swift */; };
 		0409CE0B2BAEE61B001F5B2E /* IconStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CE0A2BAEE61A001F5B2E /* IconStoreViewModel.swift */; };
 		0409CE0D2BAF129B001F5B2E /* IconPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CE0C2BAF129B001F5B2E /* IconPicker.swift */; };
+		0409CE0F2BAF167E001F5B2E /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0409CE0E2BAF167E001F5B2E /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		0409CE082BAEE547001F5B2E /* IconGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGridView.swift; sourceTree = "<group>"; };
 		0409CE0A2BAEE61A001F5B2E /* IconStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconStoreViewModel.swift; sourceTree = "<group>"; };
 		0409CE0C2BAF129B001F5B2E /* IconPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPicker.swift; sourceTree = "<group>"; };
+		0409CE0E2BAF167E001F5B2E /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		0409CDD02BAEAD9A001F5B2E = {
 			isa = PBXGroup;
 			children = (
+				0409CE0E2BAF167E001F5B2E /* Readme.md */,
 				0409CDDB2BAEAD9A001F5B2E /* SFSymbols */,
 				0409CDDA2BAEAD9A001F5B2E /* Products */,
 			);
@@ -220,6 +223,7 @@
 			files = (
 				0409CDE42BAEAD9E001F5B2E /* Preview Assets.xcassets in Resources */,
 				0409CDE12BAEAD9E001F5B2E /* Assets.xcassets in Resources */,
+				0409CE0F2BAF167E001F5B2E /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

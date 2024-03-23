@@ -11,9 +11,10 @@
 		0409CDDF2BAEAD9A001F5B2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CDDE2BAEAD9A001F5B2E /* ContentView.swift */; };
 		0409CDE12BAEAD9E001F5B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0409CDE02BAEAD9E001F5B2E /* Assets.xcassets */; };
 		0409CDE42BAEAD9E001F5B2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0409CDE32BAEAD9E001F5B2E /* Preview Assets.xcassets */; };
-		0409CDEE2BAEAD9E001F5B2E /* SFSymbolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CDED2BAEAD9E001F5B2E /* SFSymbolsTests.swift */; };
-		0409CDF82BAEAD9E001F5B2E /* SFSymbolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CDF72BAEAD9E001F5B2E /* SFSymbolsUITests.swift */; };
-		0409CDFA2BAEAD9E001F5B2E /* SFSymbolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CDF92BAEAD9E001F5B2E /* SFSymbolsUITestsLaunchTests.swift */; };
+		0409CE072BAECD9E001F5B2E /* SymbolsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CE062BAECD9E001F5B2E /* SymbolsArray.swift */; };
+		0409CE092BAEE547001F5B2E /* IconGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CE082BAEE547001F5B2E /* IconGridView.swift */; };
+		0409CE0B2BAEE61B001F5B2E /* IconStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CE0A2BAEE61A001F5B2E /* IconStoreViewModel.swift */; };
+		0409CE0D2BAF129B001F5B2E /* IconPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409CE0C2BAF129B001F5B2E /* IconPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +41,11 @@
 		0409CDE02BAEAD9E001F5B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0409CDE32BAEAD9E001F5B2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0409CDE92BAEAD9E001F5B2E /* SFSymbolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFSymbolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0409CDED2BAEAD9E001F5B2E /* SFSymbolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsTests.swift; sourceTree = "<group>"; };
 		0409CDF32BAEAD9E001F5B2E /* SFSymbolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFSymbolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0409CDF72BAEAD9E001F5B2E /* SFSymbolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsUITests.swift; sourceTree = "<group>"; };
-		0409CDF92BAEAD9E001F5B2E /* SFSymbolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0409CE062BAECD9E001F5B2E /* SymbolsArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsArray.swift; sourceTree = "<group>"; };
+		0409CE082BAEE547001F5B2E /* IconGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGridView.swift; sourceTree = "<group>"; };
+		0409CE0A2BAEE61A001F5B2E /* IconStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconStoreViewModel.swift; sourceTree = "<group>"; };
+		0409CE0C2BAF129B001F5B2E /* IconPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				0409CDDB2BAEAD9A001F5B2E /* SFSymbols */,
-				0409CDEC2BAEAD9E001F5B2E /* SFSymbolsTests */,
-				0409CDF62BAEAD9E001F5B2E /* SFSymbolsUITests */,
 				0409CDDA2BAEAD9A001F5B2E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +96,10 @@
 			children = (
 				0409CDDC2BAEAD9A001F5B2E /* SFSymbolsApp.swift */,
 				0409CDDE2BAEAD9A001F5B2E /* ContentView.swift */,
+				0409CE0C2BAF129B001F5B2E /* IconPicker.swift */,
+				0409CE082BAEE547001F5B2E /* IconGridView.swift */,
+				0409CE0A2BAEE61A001F5B2E /* IconStoreViewModel.swift */,
+				0409CE062BAECD9E001F5B2E /* SymbolsArray.swift */,
 				0409CDE02BAEAD9E001F5B2E /* Assets.xcassets */,
 				0409CDE22BAEAD9E001F5B2E /* Preview Content */,
 			);
@@ -108,23 +112,6 @@
 				0409CDE32BAEAD9E001F5B2E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		0409CDEC2BAEAD9E001F5B2E /* SFSymbolsTests */ = {
-			isa = PBXGroup;
-			children = (
-				0409CDED2BAEAD9E001F5B2E /* SFSymbolsTests.swift */,
-			);
-			path = SFSymbolsTests;
-			sourceTree = "<group>";
-		};
-		0409CDF62BAEAD9E001F5B2E /* SFSymbolsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0409CDF72BAEAD9E001F5B2E /* SFSymbolsUITests.swift */,
-				0409CDF92BAEAD9E001F5B2E /* SFSymbolsUITestsLaunchTests.swift */,
-			);
-			path = SFSymbolsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0409CE072BAECD9E001F5B2E /* SymbolsArray.swift in Sources */,
 				0409CDDF2BAEAD9A001F5B2E /* ContentView.swift in Sources */,
+				0409CE0D2BAF129B001F5B2E /* IconPicker.swift in Sources */,
 				0409CDDD2BAEAD9A001F5B2E /* SFSymbolsApp.swift in Sources */,
+				0409CE092BAEE547001F5B2E /* IconGridView.swift in Sources */,
+				0409CE0B2BAEE61B001F5B2E /* IconStoreViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0409CDEE2BAEAD9E001F5B2E /* SFSymbolsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0409CDF82BAEAD9E001F5B2E /* SFSymbolsUITests.swift in Sources */,
-				0409CDFA2BAEAD9E001F5B2E /* SFSymbolsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
